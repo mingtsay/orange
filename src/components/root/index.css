@@ -1,0 +1,67 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 100px;
+}
+
+.App-header {
+	padding: 140px 0 120px 0;
+	background: #ecf0f1;
+	position: relative;
+}
+
+.App-header .slogan {
+	font-size: 28px;
+}
+
+.App-lang {
+	position: absolute;
+	right: 40px;
+	top: 40px;
+	background: #f5f5f5;
+	padding: 15px 20px;
+	cursor: pointer;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+.navBar {
+	padding: 40px;
+}
+
+.navBar li {
+	display: inline-block;
+}
+
+.navBar li a {
+	padding: 10px 60px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 300;
+	background: #f5f5f5;
+	margin: 0 20px;
+	text-decoration: none;
+	letter-spacing: 1.5px;
+	color: #000;
+}
+
+.navBar li a:hover {
+	background: #000;
+	color: #fff;
+}
+
+.content {
+	margin-top: 30px;
+	color: #000;
+}
+
+@keyframes App-logo-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
