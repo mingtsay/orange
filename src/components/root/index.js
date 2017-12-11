@@ -15,7 +15,8 @@ import Welcome from '../../containers/welcome';
 /**
  * Import Asset
  */
-import './index.css';
+import './index.scss';
+import './test.scss'; // For test mixins only
 import logo from '../../assets/img/logo.svg';
 
 /**

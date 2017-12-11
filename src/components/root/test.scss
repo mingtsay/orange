@@ -1,0 +1,7 @@
+.App {
+	.App-logo {
+		border: 1px solid #000;
+		background: $bg-black;
+		@include grid(true);
+	}
+}
