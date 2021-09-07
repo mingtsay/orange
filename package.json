@@ -111,6 +111,7 @@
   "devDependencies": {},
   "resolutions": {
       "**/browserslist": "^4.17.0",
+      "**/immer": "^9.0.6",
       "**/node-fetch": "^3.0.0",
       "**/trim-newlines": "^4.0.2"
   }
